@@ -5,7 +5,7 @@
 
 	<groupId>com.yao.express</groupId>
 	<artifactId>cloud-service-manager</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>cloud-service-manager</name>
@@ -19,15 +19,6 @@
 		<spring-cloud.version>Finchley.SR1</spring-cloud.version>
 		<spring-boot.version>2.0.1.RELEASE</spring-boot.version>
 		<deploy.skip>false</deploy.skip>
-
-		<!-- common projects -->
-		<cloud-parent.version>1.0-SNAPSHOT</cloud-parent.version>
-		<cloud-common.version>1.0-SNAPSHOT</cloud-common.version>
-		<cloud-service-manager.version>1.0-SNAPSHOT</cloud-service-manager.version>
-		<cloud-config.version>1.0-SNAPSHOT</cloud-config.version>
-		<cloud-api-gateway.version>1.0-SNAPSHOT</cloud-api-gateway.version>
-		<cloud-micro-service-user.version>1.0-SNAPSHOT</cloud-micro-service-user.version>
-		<service-user.version>1.0-SNAPSHOT</service-user.version>
 
 		<!-- docker image prefix -->
 		<docker.image.prefix>yao</docker.image.prefix>
